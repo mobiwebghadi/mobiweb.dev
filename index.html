@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta -->
+  <meta name="description" content="Mobiweb — We build, you grow. A premium software company offering web development, mobile app development, e-commerce solutions, UI/UX design, and custom software." />
+  <meta name="keywords" content="web development, mobile app development, software company Lebanon, e-commerce, UI/UX design, custom software, Mobiweb" />
+  <meta name="author" content="Mobiweb" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Mobiweb — We build, you grow." />
+  <meta property="og:description" content="Premium software company delivering custom web, mobile, and software solutions that drive growth." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mobiweb.dev" />
+  <meta property="og:image" content="assets/og-image.jpg" />
+  <meta property="og:site_name" content="Mobiweb" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mobiweb — We build, you grow." />
+  <meta name="twitter:description" content="Premium software company delivering custom web, mobile, and software solutions that drive growth." />
+  <meta name="twitter:image" content="assets/og-image.jpg" />
+
+  <!-- Schema.org Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Mobiweb",
+    "description": "We build, you grow. Premium software company.",
+    "url": "https://mobiweb.dev",
+    "logo": "https://mobiweb.dev/assets/mwlogo (1).webp",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+961-76-326-003",
+      "contactType": "customer service",
+      "email": "info@mobiweb.dev"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lebanon",
+      "addressCountry": "LB"
+    },
+    "sameAs": [
+      "https://wa.me/96176326003",
+      "https://www.instagram.com/mobiweb.dev?igsh=MTlpNDk3N3h0a2Myeg==.dev?igsh=MTlpNDk3N3h0a2Myeg=="
+    ]
+  }
+  </script>
+
+  <title>Mobiweb — We build, you grow.</title>
+  <link rel="icon" type="image/webp" href="favic.webp" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#home" class="nav-brand" aria-label="Mobiweb — Go to homepage">
+        <div class="nav-logo-wrap">
+          <img src="mwlogo (1).webp" alt="Mobiweb Logo" class="logo-img" />
+        </div>
+        <div class="nav-brand-text">
+          <span class="brand-name">Mobi<span class="brand-web">web</span></span>
+          <span class="brand-slogan">We build, you grow.</span>
+        </div>
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle mobile navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="hb-line"></span>
+        <span class="hb-line"></span>
+        <span class="hb-line"></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu" role="list">
+        <li><a href="#home"     class="nav-link">Home</a></li>
+        <li><a href="#about"    class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#process"  class="nav-link">Process</a></li>
+        <li><a href="#contact"  class="nav-link">Contact Us</a></li>
+        <li class="nav-cta-item"><a href="#contact" class="btn btn-primary nav-cta">Request a Quote</a></li>
+      </ul>
+
+      <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero" aria-labelledby="hero-heading">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-orb orb-1"></div>
+      <div class="hero-orb orb-2"></div>
+      <div class="hero-orb orb-3"></div>
+      <div class="hero-grid-overlay"></div>
+    </div>
+
+    <div class="container hero-inner">
+      <!-- Left: Text -->
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot" aria-hidden="true"></span>
+          <span>Trusted Software Partner</span>
+        </div>
+
+        <h1 id="hero-heading" class="hero-title">
+          We <span class="gradient-text">Build</span> Digital<br>
+          Products That <span class="gradient-text">Grow</span><br>
+          Your Business
+        </h1>
+
+        <p class="hero-subtitle">
+          From powerful web applications to scalable mobile solutions, <br>
+          we design and develop custom software that delivers performance, efficiency, and growth.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary btn-lg">
+            Request a Quote
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#services" class="btn btn-ghost btn-lg">View Services</a>
+        </div>
+
+      </div>
+
+      <!-- Right: Visual -->
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-logo-ring">
+          <div class="ring-pulse ring-1"></div>
+          <div class="ring-pulse ring-2"></div>
+          <div class="hero-logo-center">
+            <img src="mwlogo (1).webp" alt="Mobiweb Logo" class="hero-logo-img" />
+          </div>
+        </div>
+
+        <!-- Floating cards -->
+        <div class="float-card fc-1">
+          <div class="fc-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00CCFF" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <span>Clean Code</span>
+        </div>
+        <div class="float-card fc-2">
+          <div class="fc-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00CCFF" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <span>High Performance</span>
+        </div>
+        <div class="float-card fc-3">
+          <div class="fc-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00CCFF" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <span>Responsive</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator" aria-hidden="true">
+      <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section about-section" aria-labelledby="about-heading">
+    <div class="container">
+      <header class="section-header reveal">
+        <span class="section-badge">About Us</span>
+        <h2 id="about-heading" class="section-title">Building the Future,<br>One Product at a Time</h2>
+        <p class="section-subtitle">Mobiweb was created to turn ideas into digital solutions that help businesses move forward and grow.</p>
+      </header>
+
+      <div class="about-simple reveal">
+        <ul class="check-list" role="list">
+          
+          <li>
+            <span class="check-icon" aria-hidden="true">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+            </span>
+            Transparent, client-first communication
+          </li>
+          <li>
+            <span class="check-icon" aria-hidden="true">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+            </span>
+            On-time delivery, every time
+          </li>
+          <li>
+            <span class="check-icon" aria-hidden="true">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+            </span>
+            Long-term partnership approach
+          </li>
+        </ul>
+      </div>
+
+      <!-- Know More CTA -->
+      <div class="about-cta-strip reveal">
+        <p>Want to learn more about our mission, vision, values, and why businesses choose us?</p>
+        <a href="about.html" class="btn btn-primary">
+          Know More
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section id="services" class="section services-section" aria-labelledby="services-heading">
+    <div class="container">
+      <header class="section-header reveal">
+        <span class="section-badge">What We Do</span>
+        <h2 id="services-heading" class="section-title">End-to-End Software<br>Solutions That Deliver</h2>
+        <p class="section-subtitle">From concept to deployment, we offer a complete suite of digital services designed to bring your vision to life and scale your business.</p>
+      </header>
+
+      <div class="services-grid">
+        <article class="service-card reveal" aria-label="Web Development">
+          <div class="sc-icon" aria-hidden="true">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Web Development</h3>
+          <p>We build responsive, user-friendly websites that represent your brand and drive engagement. Every site is optimized for performance and scalability.</p>
+        </article>
+
+        <article class="service-card reveal" aria-label="Mobile App Development">
+          <div class="sc-icon" aria-hidden="true">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+          </div>
+          <h3>Mobile App Development</h3>
+          <p>Native and cross-platform mobile applications for iOS and Android that deliver intuitive experiences and drive user engagement.</p>
+        </article>
+
+        <article class="service-card reveal" aria-label="E-commerce Solutions">
+          <div class="sc-icon" aria-hidden="true">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          </div>
+          <h3>E-commerce Solutions</h3>
+          <p>From small stores to large online marketplaces, we create seamless shopping experiences that boost sales and improve customer satisfaction.</p>
+        </article>
+
+        <article class="service-card reveal" aria-label="Custom Software Solutions">
+          <div class="sc-icon" aria-hidden="true">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Custom Software Solutions</h3>
+          <p>We develop tailored software to meet your unique business challenges, improving workflows and increasing operational efficiency.</p>
+        </article>
+
+        <article class="service-card reveal" aria-label="UI/UX Design">
+          <div class="sc-icon" aria-hidden="true">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>Our designs focus on clarity, usability, and visual appeal to ensure users have an intuitive and engaging experience.</p>
+        </article>
+
+        <article class="service-card reveal" aria-label="Website Maintenance and Support">
+          <div class="sc-icon" aria-hidden="true">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h3>Maintenance &amp; Support</h3>
+          <p>We provide ongoing support and updates to keep your systems running smoothly, allowing you to focus on growing your business.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS ===== -->
+  <section id="process" class="section process-section" aria-labelledby="process-heading">
+    <div class="container">
+      <header class="section-header reveal">
+        <span class="section-badge">How We Work</span>
+        <h2 id="process-heading" class="section-title">A Proven Process for<br>Exceptional Results</h2>
+        <p class="section-subtitle">Our structured approach ensures every project is delivered on time, on budget, and beyond expectations.</p>
+      </header>
+
+      <ol class="process-list" aria-label="Development process steps">
+        <li class="process-step reveal">
+          <div class="ps-number" aria-hidden="true">01</div>
+          <div class="ps-body">
+            <div class="ps-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </div>
+            <h3>Discovery</h3>
+            <p>We analyze your goals, audience, and requirements to define the right strategy.</p>
+          </div>
+        </li>
+        <li class="process-step reveal">
+          <div class="ps-number" aria-hidden="true">02</div>
+          <div class="ps-body">
+            <div class="ps-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+            </div>
+            <h3>Planning</h3>
+            <p>We create a clear roadmap with timelines, milestones, and deliverables.</p>
+          </div>
+        </li>
+        <li class="process-step reveal">
+          <div class="ps-number" aria-hidden="true">03</div>
+          <div class="ps-body">
+            <div class="ps-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3>Design</h3>
+            <p>We design intuitive, user-focused interfaces refined through your feedback.</p>
+          </div>
+        </li>
+        <li class="process-step reveal">
+          <div class="ps-number" aria-hidden="true">04</div>
+          <div class="ps-body">
+            <div class="ps-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3>Development</h3>
+            <p>We build scalable solutions using modern technologies and clean architecture.</p>
+          </div>
+        </li>
+        <li class="process-step reveal">
+          <div class="ps-number" aria-hidden="true">05</div>
+          <div class="ps-body">
+            <div class="ps-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <h3>Testing</h3>
+            <p>We ensure quality through rigorous testing across devices and environments.</p>
+          </div>
+        </li>
+        <li class="process-step reveal">
+          <div class="ps-number" aria-hidden="true">06</div>
+          <div class="ps-body">
+            <div class="ps-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </div>
+            <h3>Launch &amp; Support</h3>
+            <p>We deploy, monitor performance, and provide ongoing support for growth.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact-section" aria-labelledby="contact-heading">
+    <div class="container">
+      <header class="section-header reveal">
+        <span class="section-badge">Get In Touch</span>
+        <h2 id="contact-heading" class="section-title">Let's Build Something<br>Amazing Together</h2>
+        <p class="section-subtitle">Ready to transform your ideas into powerful digital products? Let's talk about your project and how we can help you grow.</p>
+      </header>
+
+      <div class="contact-grid">
+        <!-- Info column -->
+        <div class="contact-info reveal">
+          <div class="ci-card">
+            <div class="ci-item">
+              <div class="ci-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <h4>Email Us</h4>
+                <a href="mailto:info@mobiweb.dev">info@mobiweb.dev</a>
+              </div>
+            </div>
+            <div class="ci-item">
+              <div class="ci-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.09 6.09l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <h4>Call Us</h4>
+                <a href="tel:+96176326003">+961 76 326 003</a>
+              </div>
+            </div>
+            <div class="ci-item">
+              <div class="ci-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </div>
+              <div>
+                <h4>WhatsApp</h4>
+                <a href="https://wa.me/96176326003" target="_blank" rel="noopener noreferrer">+961 76 326 003</a>
+              </div>
+            </div>
+            <div class="ci-item">
+              <div class="ci-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <h4>Location</h4>
+                <span>Lebanon</span>
+              </div>
+            </div>
+            <div class="ci-item">
+              <div class="ci-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              </div>
+              <div>
+                <h4>Follow Us</h4>
+                <a href="https://www.instagram.com/mobiweb.dev?igsh=MTlpNDk3N3h0a2Myeg==" target="_blank" rel="noopener noreferrer">mobiweb.dev</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form column -->
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form" id="contact-form" novalidate aria-label="Project inquiry form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cf-name">Full Name <span aria-hidden="true">*</span></label>
+                <input type="text" id="cf-name" name="from_name" placeholder="John Smith" required autocomplete="name" aria-required="true" />
+              </div>
+              <div class="form-group">
+                <label for="cf-email">Email Address <span aria-hidden="true">*</span></label>
+                <input type="email" id="cf-email" name="from_email" placeholder="john@company.com" required autocomplete="email" aria-required="true" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cf-phone">Phone Number</label>
+                <input type="tel" id="cf-phone" name="phone" placeholder="+961 76 326 003" autocomplete="tel" />
+              </div>
+              <div class="form-group">
+                <label for="cf-service">Service Needed <span aria-hidden="true">*</span></label>
+                <select id="cf-service" name="service_needed" required aria-required="true">
+                  <option value="" disabled selected>Select a service</option>
+                  <option value="web-development">Web Development</option>
+                  <option value="mobile-app">Mobile App Development</option>
+                  <option value="ecommerce">E-commerce Solutions</option>
+                  <option value="custom-software">Custom Software Solutions</option>
+                  <option value="ui-ux">UI/UX Design</option>
+                  <option value="maintenance">Maintenance &amp; Support</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="cf-message">Your Message <span style="font-size:0.78rem;color:#9ca3af;font-weight:400;">(optional)</span></label>
+              <textarea id="cf-message" name="message" rows="5" placeholder="Tell us about your project, goals, and timeline..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              Send Message
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+            <p class="form-note">We respect your privacy. Your information is never shared with third parties.</p>
+            <p id="form-status" role="alert" aria-live="polite"></p>
+          </form>
+
+          <div class="form-success" id="formSuccess" role="alert" aria-live="polite" aria-hidden="true">
+            <div class="fs-icon" aria-hidden="true">
+              <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="#00CCFF" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <h3>Message Sent!</h3>
+            <p>Thank you for reaching out. We'll get back to you within 24 hours.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Brand -->
+          <div class="footer-col footer-brand-col">
+            <a href="#home" class="footer-logo-link" aria-label="Mobiweb home">
+              <img src="mwlogo (1).webp" alt="Mobiweb Logo" class="footer-logo-img" />
+              <div class="footer-brand-text">
+                <span class="footer-brand-name">Mobiweb</span>
+                <span class="footer-brand-slogan">We build, you grow.</span>
+              </div>
+            </a>
+            <p>We design and develop powerful digital products that drive growth, efficiency, and long-term success.</p>
+            <div class="footer-social">
+              <a href="https://wa.me/96176326003" class="soc-btn" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+              <a href="https://www.instagram.com/mobiweb.dev?igsh=MTlpNDk3N3h0a2Myeg==" class="soc-btn" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <nav class="footer-col" aria-label="Quick links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#process">Our Process</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </nav>
+
+          <!-- Services -->
+          <nav class="footer-col" aria-label="Services">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#services">Web Development</a></li>
+              <li><a href="#services">Mobile App Development</a></li>
+              <li><a href="#services">E-commerce Solutions</a></li>
+              <li><a href="#services">Custom Software</a></li>
+              <li><a href="#services">UI/UX Design</a></li>
+              <li><a href="#services">Maintenance &amp; Support</a></li>
+            </ul>
+          </nav>
+
+          <!-- Contact -->
+          <div class="footer-col">
+            <h4>Contact Info</h4>
+            <div class="footer-contact-list">
+              <div class="fci">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                <a href="mailto:info@mobiweb.dev">info@mobiweb.dev</a>
+              </div>
+              <div class="fci">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.09 6.09l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <a href="tel:+96176326003">+961 76 326 003</a>
+              </div>
+              <div class="fci">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>Lebanon</span>
+              </div>
+            </div>
+            <a href="#contact" class="btn btn-primary btn-sm footer-cta-btn">Get a Free Quote</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="currentYear"></span> Mobiweb. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-of-service.html">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- EmailJS SDK — must load before script.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+  <script src="chatbot.js"></script>
+</body>
+</html>
